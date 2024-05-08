@@ -855,4 +855,5 @@ public interface PatientService extends OpenmrsService {
 	 * @should not match on partial name matches
 	 */
 	public List<Patient> getPatientsByGivenName(String name);
+		Return dao.getPatientByGivenName(string name);
 }
